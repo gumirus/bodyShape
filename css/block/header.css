@@ -1,0 +1,36 @@
+.header {
+  padding-top: 30px;
+  height: 750px;
+  background-image: image-set(url("./../../img/hero/hero-bg.jpg") 1x,
+      url("./../../img/hero/hero-bg@2x.jpg") 2x);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  gap: 20px 50px;
+  font-family: var(--fontAccent);
+  font-weight: 700;
+}
+
+.header_nav a {
+  transition: clor 0.2s ease-in;
+}
+
+.header_nav a:hover {
+  color: var(--accent);
+}
+
+.header_img {
+  padding-top: 125px;
+  text-align: right;
+}

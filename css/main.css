@@ -5,3 +5,6 @@
 /*base*/
 @import "./base/base.css";
 @import "./base/reset.css";
+
+/*blocks*/
+@import "./block/header.css"

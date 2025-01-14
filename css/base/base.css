@@ -11,9 +11,14 @@ body {
   font-weight: 300;
 }
 
-.title-1 {
-  font-family: var(--fontAccent);
-  color: var(--accent);
-  font-weight: 700;
-  font-size: 100px;
+a {
+  color: #fafaf5;
+  text-decoration: underline;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1170px;
+  width: 100%;
 }
