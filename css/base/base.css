@@ -1,0 +1,19 @@
+:root {
+  --fontBase: 'Roboto', sans-serif;
+  --fontAccent: 'Bebas Neue', sans-serif;
+  --accent: #ffd479;
+}
+
+body {
+  font-family: var(--fontBase);
+  background-color: #1f2a32;
+  color: #fafaf5;
+  font-weight: 300;
+}
+
+.title-1 {
+  font-family: var(--fontAccent);
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 100px;
+}
