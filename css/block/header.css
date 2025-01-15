@@ -5,7 +5,7 @@
       url("./../../img/hero/hero-bg@2x.jpg") 2x);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left top;
 }
 
 .header_row {
@@ -33,4 +33,45 @@
 .header_img {
   padding-top: 125px;
   text-align: right;
+}
+
+@media (max-width:1170px) {
+  .header {
+    height: auto;
+    padding-bottom: 60px;
+
+  }
+
+
+  .header_logo {
+    display: none;
+  }
+
+  .header_row {
+    justify-content: center;
+  }
+
+  .header_img {
+    text-align: center;
+  }
+}
+
+@media (max-width:560px) {
+  .header_logo {
+    display: block;
+  }
+
+  .header_row {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .header_img {
+    display: none;
+  }
+
+  .header_nav {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
